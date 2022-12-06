@@ -6,10 +6,10 @@ from dataclasses import dataclass
 
 @dataclass
 class Tasks:
-    id: integer
-    name: text
-    priority: integer
-    status_id: integer
-    project_id: integer
-    begin_date: text
-    end_date: text
+    id: int
+    name: str
+    priority: int
+    status_id: int
+    project_id: int
+    begin_date: str
+    end_date: str

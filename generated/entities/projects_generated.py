@@ -6,8 +6,8 @@ from dataclasses import dataclass
 
 @dataclass
 class Projects:
-    id: integer
-    name: text
-    begin_date: text
-    end_date: text
+    id: int
+    name: str
+    begin_date: str
+    end_date: str
 
